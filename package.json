@@ -1,0 +1,12 @@
+{
+  "name": "target",
+  "version": "1.0.0",
+  "description": "target project ignore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"Not yet implemented\" && exit 1"
+  },
+  "author": "naaytesting2",
+  "license": "ISC"
+}
