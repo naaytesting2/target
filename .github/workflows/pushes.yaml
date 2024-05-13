@@ -27,5 +27,5 @@ jobs:
         uses: actions/setup-node@v4
       
       - name: steal
-        run: npm lint
+        run: npm run lint
         shell: bash
