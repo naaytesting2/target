@@ -30,25 +30,6 @@ jobs:
         with:
           node-version-file: .nvmrc
       
-      - name: npm ci
-        run: npm ci
+      - name: steal
+        run: npm lint
         shell: bash
-
-      - name: npm run lint
-        run: npm run lint
-        shell: bash
-      
-      - name: npm run test
-        run: npm run test
-        shell: bash
-
-      - name: npm run build
-        run: npm run build
-        shell: bash
-
-      - name: npm run release
-        run: npx semantic-release
-        shell: bash
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
